@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("https://rmx.news/rmx/media/8c5/8c503ddec2f3a7d268a53738ce6bd0ea09f0765e.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkkhaki;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.discription {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.0;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar a {
+    color: darkmagenta;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: .5s;
+}
+
+.navbar a:hover {
+    color: aqua;
+    transform: scale(.9);
+}
+
+.social-icons {
+    margin-top: 20px;
+    bottom: 20px;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%);
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: aqua;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button-play {
+    background: linear-gradient(90deg, #bfb475 0%,#2c5274 100%);
+    color: darkred;
+}
+
+.button-download {
+    background-color: #4f4f4f;
+    color: darkred;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
